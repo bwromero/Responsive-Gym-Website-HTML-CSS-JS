@@ -3,6 +3,8 @@
 :root {
   --main-color: #f73471;
   --black: #000;
+  --dark-grey: #222;
+  --white: #fff;
   --light-color: #868e96;
 }
 
@@ -20,7 +22,7 @@
 
 ::selection {
   background: var(--main-color);
-  color: #fff;
+  color: var(--white);
 }
 
 html {
@@ -79,7 +81,7 @@ section {
 
 .header .navbar a {
   font-size: 1.7rem;
-  color: #fff;
+  color: var(--white);
   margin: 0 1rem;
 }
 
@@ -94,7 +96,7 @@ section {
 .header .icons a {
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
-  color: #fff;
+  color: var(--white);
   background: var(--main-color);
   font-weight: 500;
   text-transform: uppercase;
@@ -104,7 +106,7 @@ section {
 
 .header .icons a:hover {
   color: var(--main-color);
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 #menu-btn {
@@ -125,7 +127,7 @@ section {
   transform: rotate(180deg);
   color: var(--main-color);
 }
-
+/* language selection */
 .selected-lang {
   cursor: pointer;
   display: flex;
@@ -152,7 +154,7 @@ section {
   display: block;
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: var(--dark-grey);
   border: 1px solid #f8f8f8;
   list-style-type: none;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
@@ -216,7 +218,7 @@ section {
 
 .home .home-slider .box .content h3 {
   font-size: 5rem;
-  color: #fff;
+  color: var(--white);
   text-transform: uppercase;
   transition-delay: 0.2s;
 }
@@ -232,7 +234,7 @@ section {
   margin-top: 1rem;
   display: inline-block;
   padding: 0.8rem 3rem;
-  background: #fff;
+  background: var(--white);
   font-weight: 500;
   cursor: pointer;
   color: var(--main-color);
@@ -242,18 +244,18 @@ section {
 
 .btn:hover {
   background: var(--main-color);
-  color: #fff;
+  color: var(--white);
   letter-spacing: 0.1rem;
 }
 
 .home .home-slider .box .button .btn-1 {
   background: var(--main-color);
-  color: #fff;
+  color: var(--white);
   margin-right: 0.5rem;
 }
 
 .home .home-slider .box .button .btn-1:hover {
-  background: #fff;
+  background: var(--white);
   color: var(--main-color);
 }
 
@@ -312,7 +314,7 @@ section {
 .feature .feature-slider .box .content h3 {
   font-size: 2rem;
   font-weight: bold;
-  color: #fff;
+  color: var(--white);
   text-transform: uppercase;
   background: rgba(0, 0, 0, 0.3);
   padding: 0.2rem;
@@ -329,12 +331,12 @@ section {
   background: var(--main-color);
   font-size: 2rem;
   font-weight: bolder;
-  color: #ffff;
+  color: var(--white);
 }
 
 .feature .feature-slider .box:hover .content .price {
   background: none;
-  border: 0.3rem solid #fff;
+  border: 0.3rem solid var(--white);
 }
 /* ----------------- feature section ends ------------- */
 
@@ -352,7 +354,7 @@ section {
 }
 
 .schedule .box-container .box {
-  background: #fff;
+  background: var(--white);
   overflow: hidden;
 }
 
@@ -390,7 +392,7 @@ section {
 .schedule .box-container .box .btn {
   margin: 1.5rem 2rem;
   background: var(--main-color);
-  color: #fff;
+  color: var(--white);
 }
 
 .schedule .box-container .box img {
@@ -463,7 +465,7 @@ section {
 .testimonial .box-container .box:hover {
   transform: translateY(-10%);
   transition: 0.5s linear;
-  background: #fff;
+  background: var(--white);
   border: 0.2rem solid #f8f8a1;
 }
 .testimonial .box-container .box .image {
@@ -506,7 +508,7 @@ section {
 /* ------------------ footer section starts ------------- */
 
 .footer {
-  background: #222;
+  background: var(--dark-grey);
 }
 
 .footer .box-container {
@@ -520,7 +522,7 @@ section {
 
 .footer .box-container .box h1 {
   font-size: 2.5rem;
-  color: #fff;
+  color: var(--white);
   font-weight: 600;
   padding-bottom: 1rem;
 }
@@ -546,7 +548,7 @@ section {
   font-size: 2rem;
   border-radius: 50%;
   margin-right: 0 0.5rem;
-  color: #fff;
+  color: var(--white);
 }
 
 .footer .box-container .box .icon a i:hover {
@@ -557,7 +559,7 @@ section {
 
 .footer .box-container .box .icons a {
   display: block;
-  color: #fff;
+  color: var(--white);
   font-size: 1.5rem;
   margin: 1.5rem 0;
 }
@@ -569,7 +571,7 @@ section {
 
 .footer .box-container .box .icons a:hover i {
   padding-right: 2rem;
-  color: #fff;
+  color: var(--white);
 }
 
 .footer .box-container .box .icons a:hover {
