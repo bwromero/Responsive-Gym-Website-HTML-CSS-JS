@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+  --main-color: #f73471;
+  --black: #000;
+  --light-color: #868e96;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+::selection {
+  background: var(--main-color);
+  color: #fff;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+}
+
+section {
+  padding: 2rem 9%;
+}
+
+.heading {
+  font-size: 4;
+  text-align: center;
+  padding-top: 4;
+  padding-bottom: 2 rem;
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+.heading span {
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+/* --------------------------------- HEADER ---------------------------- */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 3rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0rem 0.1rem 0.5rem rgba(0, 0, 0, 0.1);
+  z-index: 5;
+}
+
+.header .logo {
+  font-size: 2.5rem;
+  color: var(--black);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.header .logo span {
+  color: var(--main-color);
+  text-transform: uppercase;
+}
+
+.header .navbar a {
+  font-size: 1.7rem;
+  color: #fff;
+  margin: 0 1rem;
+}
+
+.header .navbar a:hover {
+  color: var(--main-color);
+}
+
+.icons {
+  display: flex;
+}
+
+.header .icons a {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  color: #fff;
+  background: var(--main-color);
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0.8rem 2rem;
+  border: none;
+}
+
+.header .icons a:hover {
+  color: var(--main-color);
+  background-color: #fff;
+}
+
+#menu-btn {
+  display: none;
+  font-size: 2.5rem;
+  color: var(--black);
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.header.active {
+  padding: 2rem 9%;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+#menu-btn:hover {
+  transform: rotate(180deg);
+  color: var(--main-color);
+}
+
+.selected-lang {
+  cursor: pointer;
+}
+
+.selected-lang::before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url("images/flags/italy.svg");
+}
