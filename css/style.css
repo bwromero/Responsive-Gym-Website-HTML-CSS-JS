@@ -130,31 +130,125 @@ section {
   cursor: pointer;
   display: flex;
   justify-content: space-between;
-  line-height: 3;
+  line-height: 2;
   font-size: 1.3rem;
-  width: 65px;
+  width: 60px;
 }
 
 .selected-lang::before {
   content: "";
   display: block;
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 20px;
   background-image: url("../images/flags/it.svg");
 }
 
 .lang-menu {
   width: 25px;
+  position: relative;
 }
 
 .lang-menu ul {
+  display: block;
   margin: 0;
   padding: 0;
   background-color: #fff;
   border: 1px solid #f8f8f8;
   list-style-type: none;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 90px;
+  height: 32px;
+  display: none;
+  position: absolute;
 }
 
 .lang-menu ul li {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-menu ul li a {
+  width: 125px;
+  display: block;
+  padding: 5px 10px;
+  font-size: 1.3rem;
+}
+
+.lang-menu ul li a:before {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 20px;
+  background-image: url("../images/flags/uk.svg");
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.lang-menu ul li a:hover {
+  background-color: #f2f2f2;
+}
+
+.lang-menu:hover ul {
+  display: block;
+}
+
+/* ------------------ home section  --------------------- */
+.home {
+  padding: 0;
+}
+
+.home .home-slider .box {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.home .home-slider .box .content {
+  text-align: center;
+  max-width: 70rem;
+}
+
+.home .home-slider .box .content h3 {
+  font-size: 5rem;
+  color: #fff;
+  text-transform: uppercase;
+  transition-delay: 0.2s;
+}
+
+.home .home-slider .box .content p {
+  font-size: 1.7rem;
+  color: #eee;
+  padding: 1rem 0;
+  transition-delay: 0.4s;
+}
+
+.home .home-slider .box .button .btn-1 {
+  background: var(--main-color);
+  color: #fff;
+  margin-right: 0.5rem;
+}
+
+.home .home-slider .box .button .btn-1:hover {
+  background: #fff;
+  color: var(--main-color);
+}
+
+.home .home-slider .box .button {
+  transition-delay: 0.6s;
+}
+
+.home .home-slider .box .content > * {
+  transform: translateY(2rem);
+  opacity: 0;
+}
+
+.home .home-slider .swiper-slide-active .content > * {
+  transform: translateY(0);
+  opacity: 1;
 }
