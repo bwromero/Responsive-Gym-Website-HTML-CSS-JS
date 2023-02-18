@@ -1,7 +1,7 @@
 // Get the selected language element and menu item
 const selectedLang = document.getElementById("selected-lang");
 const langMenuItem = document.getElementById("eng");
-console.log("geee");
+let navbar = document.querySelector(".navbar");
 
 // Add a click event listener to the menu item
 langMenuItem.addEventListener("click", function (event) {
@@ -11,7 +11,6 @@ langMenuItem.addEventListener("click", function (event) {
 });
 
 window.onscroll = () => {
-  menu.classList.remove("fa-times");
   navbar.classList.remove("active");
 
   if (window.scrollY > 0) {
@@ -36,7 +35,33 @@ var swiper = new Swiper(".home-slider", {
   loop: true,
   centeredSlides: true,
   autoplay: {
-    delay: 9500,
+    delay: 5500,
     disableOnInteraction: false,
   },
+});
+
+var swiper = new Swiper(".feature-slider", {
+  spaceBetween: 20,
+  grabCursor: true,
+  loop: true,
+  centeredSlides: true,
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: true,
+    pauseOnMouseEnter: true,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    991: {
+      slidesPerView: 3,
+    },
+  },
+  freeMode: true,
+  speed: 10000,
+  freeModeMomentum: false,
 });
