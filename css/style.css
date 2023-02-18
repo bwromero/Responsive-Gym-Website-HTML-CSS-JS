@@ -217,6 +217,7 @@ section {
 .home .home-slider .box .content {
   text-align: center;
   max-width: 70rem;
+  padding-top: 8rem;
 }
 
 .home .home-slider .box .content h3 {
@@ -315,7 +316,7 @@ section {
 }
 
 .feature .feature-slider .box .content h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: var(--white);
   text-transform: uppercase;
