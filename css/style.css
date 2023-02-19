@@ -36,7 +36,7 @@ section {
 }
 
 .heading {
-  font-size: 4;
+  font-size: 2rem;
   text-align: center;
   padding-top: 4;
   padding-bottom: 2 rem;
@@ -470,9 +470,13 @@ section {
   justify-content: center;
 }
 
-.contact h2,
-p {
+.contact .box-container .heading h2 {
   text-align: center;
+}
+
+.contact .box-container p {
+  text-align: center;
+  font-size: 2rem;
 }
 
 .contact .box-container .form-container {
@@ -480,6 +484,18 @@ p {
   padding-top: 2rem;
 }
 
+.contact .box-container .form-container .user-data label {
+  font-size: 2rem;
+}
+
+.contact .box-container .form-container .user-data input {
+  padding: 7px 12px;
+  line-height: 124%;
+}
+
+.contact .box-container .form-container .richiesta label {
+  font-size: 2rem;
+}
 .contact .form-container .user-data {
   display: block;
   padding-right: 2rem;
@@ -490,6 +506,9 @@ p {
   flex-direction: column;
 }
 
+.contact .box-container .button {
+  padding-top: 2rem;
+}
 .contact .box-container .button .btn-2 {
   background: var(--main-color);
   color: var(--white);
