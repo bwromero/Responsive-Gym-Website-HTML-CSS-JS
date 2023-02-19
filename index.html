@@ -451,11 +451,11 @@
     <section class="contact">
       <div class="box-container">
         <h2>Unisciti a noi!</h2>
-        <p>Compila il modulo e ti ricontattaremo al più preto</p>
+        <p>Compila il modulo e ti ricontattaremo al più presto</p>
 
-        <div class="form-container">
-          <div class="input-container">
-            <form action="">
+        <form action="">
+          <div class="form-container">
+            <div class="user-data">
               <label for="name-lastname">Nome e Cognome*</label><br />
               <input
                 type="text"
@@ -474,9 +474,18 @@
                 id="name-lastname"
                 name="name-lastname"
               /><br />
-            </form>
+            </div>
+            <div class="richiesta">
+              <label for="richiesta">Richiesta:</label>
+
+              <textarea id="richiesta" name="richiesta" rows="5" cols="33">
+              </textarea>
+            </div>
           </div>
-        </div>
+          <div class="button">
+            <a type="submit" href="#" class="btn btn-2">invia richiesta</a>
+          </div>
+        </form>
       </div>
     </section>
 

@@ -14,7 +14,6 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  border: none;
   outline: none;
   text-transform: capitalize;
   transition: all 0.2s linear;
@@ -471,6 +470,31 @@ section {
   justify-content: center;
 }
 
+.contact h2,
+p {
+  text-align: center;
+}
+
+.contact .box-container .form-container {
+  display: flex;
+  padding-top: 2rem;
+}
+
+.contact .form-container .user-data {
+  display: block;
+  padding-right: 2rem;
+}
+
+.contact .form-container .richiesta {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .box-container .button .btn-2 {
+  background: var(--main-color);
+  color: var(--white);
+  margin-right: 0.5rem;
+}
 /* ------------------ footer section starts ------------- */
 
 .footer {
