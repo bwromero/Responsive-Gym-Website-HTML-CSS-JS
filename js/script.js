@@ -1,14 +1,6 @@
 // Get the selected language element and menu item
 const selectedLang = document.getElementById("selected-lang");
-const langMenuItem = document.getElementById("eng");
 let navbar = document.querySelector(".navbar");
-
-// Add a click event listener to the menu item
-langMenuItem.addEventListener("click", function (event) {
-  event.preventDefault(); // Prevent default link behavior
-  selectedLang.textContent = this.textContent; // Update selected language text
-  selectedLang.style.backgroundImage = "url(../images/flags/uk.svg)";
-});
 
 window.onscroll = () => {
   navbar.classList.remove("active");
