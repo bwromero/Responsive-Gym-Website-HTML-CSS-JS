@@ -382,6 +382,7 @@ section {
   height: 30rem;
   width: 30rem;
   object-fit: cover;
+  border-radius: 50%;
 }
 
 .trainers .trainer-slider .box .name {
