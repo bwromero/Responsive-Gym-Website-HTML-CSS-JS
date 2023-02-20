@@ -347,11 +347,19 @@ section {
 
 /* ------------------ schedule section ------------------ */
 
-.schedule .schedule-slider {
+.schedule .schedule-container {
   padding-bottom: 4rem;
 }
 
-.schedule .schedule-slider .box {
+.schedule .schedule-container h3 {
+  font-size: 2.5rem;
+}
+
+.schedule .schedule-container .box-container {
+  display: flex;
+  justify-content: space-between;
+}
+.schedule .schedule-container .box {
   position: relative;
   overflow: hidden;
   margin: 1rem 0;
@@ -360,39 +368,44 @@ section {
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
 }
 
-.blogschedules .schedule-slider .box .image {
-  height: 40rem;
-  width: 100%;
-  overflow: hidden;
-}
-
-.schedule .schedule-slider .box .image img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.schedule .schedule-slider .box:hover .image img {
-  transform: scale(1.2);
-}
-
-.schedule .schedule-slider .box .content {
-  padding: 2rem;
+.schedule .schedule-container .box .content {
+  padding: 1rem;
   padding-bottom: 1rem;
 }
 
-.schedule .schedule-slider .box .content h3 {
+.schedule .schedule-container .box .content h3 {
   font-size: 2rem;
   color: var(--black);
   font-weight: bold;
   padding-bottom: 1rem;
+  text-align: center;
 }
 
-.schedule .schedule-slider .box .content p {
-  padding-top: 1rem;
+.schedule .schedule-container .box .content .orario .orario-box {
+  display: block;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   color: #808080;
-  font-size: 1.5rem;
-  line-height: 1.8;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.schedule .schedule-container .box .content .orario .orario-box .hours p {
+  text-align: center;
+}
+
+.schedule .schedule-container .box .content .orario .orario-box p {
+  text-align: center;
+}
+
+.schedule .schedule-container .box .content .orario .orario-box p span {
+  font-weight: bold;
+  text-transform: none;
+}
+
+.schedule .schedule-container .box .content .orario .orario-box .hours p span {
+  font-weight: bold;
+  text-transform: none;
 }
 
 /* --------------- schedule sections ends --------------*/

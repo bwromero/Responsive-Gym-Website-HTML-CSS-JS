@@ -114,30 +114,3 @@ var swiper = new Swiper(".trainer-slider", {
     prevEl: ".swiper-button-prev",
   },
 });
-
-var swiper = new Swiper(".schedule-slider", {
-  spaceBetween: 20,
-  grabCursor: true,
-  loop: true,
-  centeredSlides: true,
-  autoplay: {
-    delay: 4000,
-    disableOnInteraction: true,
-    pauseOnMouseEnter: true,
-  },
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-    },
-    768: {
-      slidesPerView: 2,
-    },
-    991: {
-      slidesPerView: 4,
-    },
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
