@@ -36,6 +36,11 @@ section {
   padding: 2rem 9%;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--main-color);
+}
+
 .heading {
   font-size: 2rem;
   text-align: center;
