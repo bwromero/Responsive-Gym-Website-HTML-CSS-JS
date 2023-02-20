@@ -264,7 +264,6 @@ section {
 .feature .fitness-slider .box .image {
   height: 30rem;
   width: 100%;
-  overflow: hidden;
   filter: brightness(50%);
 }
 
@@ -348,63 +347,60 @@ section {
 
 /* ------------------ schedule section ------------------ */
 
-.schedule {
-  background: #eee;
+.feature .martial-arts-slider {
+  padding-bottom: 4rem;
 }
 
-.schedule .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  padding-top: 2rem;
-  padding-bottom: 5rem;
-}
-
-.schedule .box-container .box {
-  background: var(--white);
+.feature .martial-arts-slider .box {
+  position: relative;
+  text-align: center;
   overflow: hidden;
+  margin: 1rem 0;
 }
 
-.schedule .box-container .box .content {
+.schedule .schedule-slider {
+  padding-bottom: 4rem;
+}
+
+.schedule .schedule-slider .box-container .box {
+  background: var(--white);
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.schedule .schedule-slider .schedule-swiper .box-container .box .content {
   padding: 2rem;
 }
 
-.schedule .box-container .box .content h3 {
+.schedule .schedule-slider .box-container .box .content h3 {
   font-size: 2rem;
   font-weight: 500;
   padding-bottom: 0.5rem;
 }
 
-.schedule .box-container .box .content p {
+.schedule .schedule-slider .box-container .box .content p {
   color: #333;
   font-size: 1.5rem;
   line-height: 1.8;
 }
 
-.schedule .box-container .box .icons {
+.schedule .schedule-slider .box-container .box .icons {
   padding: 0 2rem;
 }
 
-.schedule .box-container .box .icons span {
-  display: block;
-  font-size: 1.3rem;
-  color: #333;
-  padding: 0.3rem 0;
-}
-
-.schedule .box-container .box .icons span i {
-  margin-right: 0.5rem;
-}
-
-.schedule .box-container .box .btn {
+.schedule .schedule-slider .box-container .box .btn {
   margin: 1.5rem 2rem;
   background: var(--main-color);
   color: var(--white);
 }
 
-.schedule .box-container .box img {
+.schedule .schedule-slider .box-container .box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  filter: brightness(70%);
 }
 
 /* --------------- schedule sections ends --------------*/
@@ -520,7 +516,7 @@ section {
 
 .contact {
   display: block;
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 
 .contact .box-container {

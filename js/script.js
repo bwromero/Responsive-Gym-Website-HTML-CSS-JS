@@ -32,7 +32,7 @@ var swiper = new Swiper(".home-slider", {
   },
 });
 
-var swiper = new Swiper(".fitness-slider  ", {
+var swiper = new Swiper(".fitness-slider", {
   spaceBetween: 20,
   grabCursor: true,
   loop: true,
@@ -107,6 +107,33 @@ var swiper = new Swiper(".trainer-slider", {
     },
     991: {
       slidesPerView: 3,
+    },
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+var swiper = new Swiper(".schedule-slider", {
+  spaceBetween: 20,
+  grabCursor: true,
+  loop: true,
+  centeredSlides: true,
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: true,
+    pauseOnMouseEnter: true,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    991: {
+      slidesPerView: 4,
     },
   },
   navigation: {
