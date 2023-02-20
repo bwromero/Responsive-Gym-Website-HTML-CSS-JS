@@ -465,37 +465,40 @@ section {
 /* ----------------- contact section starts -------------*/
 
 .contact {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
   padding-bottom: 6rem;
   padding-top: 6rem;
 }
 
-.contact .box-container .heading h2 {
+.contact .box-container {
+  display: flex;
+  padding-top: 2rem;
+  gap: 4rem;
+}
+
+.contact .heading h2 {
   text-align: center;
 }
 
 .contact .box-container p {
-  text-align: center;
   font-size: 2rem;
 }
 
-.contact .box-container .form-container {
+.contact .box-container .form-container .form {
   display: flex;
   padding-top: 2rem;
 }
 
-.contact .box-container .form-container .user-data label {
+.contact .box-container .form-container .form .user-data label {
   font-size: 2rem;
 }
 
-.contact .box-container .form-container .user-data input {
+.contact .box-container .form-container .form .user-data input {
   padding: 7px 12px;
   line-height: 124%;
 }
 
-.contact .box-container .form-container .richiesta label {
+.contact .box-container .form-container .form .richiesta label {
   font-size: 2rem;
 }
 .contact .form-container .user-data {
@@ -515,6 +518,14 @@ section {
   background: var(--main-color);
   color: var(--white);
   margin-right: 0.5rem;
+}
+
+.contact .address h3 {
+  font-size: 2rem;
+}
+
+.contact .address p {
+  font-size: 2rem;
 }
 /* ------------------ footer section starts ------------- */
 
