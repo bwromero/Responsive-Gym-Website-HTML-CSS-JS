@@ -347,60 +347,52 @@ section {
 
 /* ------------------ schedule section ------------------ */
 
-.feature .martial-arts-slider {
-  padding-bottom: 4rem;
-}
-
-.feature .martial-arts-slider .box {
-  position: relative;
-  text-align: center;
-  overflow: hidden;
-  margin: 1rem 0;
-}
-
 .schedule .schedule-slider {
   padding-bottom: 4rem;
 }
 
-.schedule .schedule-slider .box-container .box {
-  background: var(--white);
+.schedule .schedule-slider .box {
   position: relative;
-  text-align: center;
   overflow: hidden;
   margin: 1rem 0;
+  background: #fafafa;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
 }
 
-.schedule .schedule-slider .schedule-swiper .box-container .box .content {
+.blogschedules .schedule-slider .box .image {
+  height: 40rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.schedule .schedule-slider .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.schedule .schedule-slider .box:hover .image img {
+  transform: scale(1.2);
+}
+
+.schedule .schedule-slider .box .content {
   padding: 2rem;
+  padding-bottom: 1rem;
 }
 
-.schedule .schedule-slider .box-container .box .content h3 {
+.schedule .schedule-slider .box .content h3 {
   font-size: 2rem;
-  font-weight: 500;
-  padding-bottom: 0.5rem;
+  color: var(--black);
+  font-weight: bold;
+  padding-bottom: 1rem;
 }
 
-.schedule .schedule-slider .box-container .box .content p {
-  color: #333;
+.schedule .schedule-slider .box .content p {
+  padding-top: 1rem;
+  color: #808080;
   font-size: 1.5rem;
   line-height: 1.8;
-}
-
-.schedule .schedule-slider .box-container .box .icons {
-  padding: 0 2rem;
-}
-
-.schedule .schedule-slider .box-container .box .btn {
-  margin: 1.5rem 2rem;
-  background: var(--main-color);
-  color: var(--white);
-}
-
-.schedule .schedule-slider .box-container .box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: brightness(70%);
 }
 
 /* --------------- schedule sections ends --------------*/
