@@ -65,7 +65,8 @@ var swiper = new Swiper(".trainer-slider", {
   centeredSlides: true,
   autoplay: {
     delay: 4000,
-    disableOnInteraction: false,
+    disableOnInteraction: true,
+    pauseOnMouseEnter: true,
   },
   breakpoints: {
     0: {

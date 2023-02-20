@@ -5,6 +5,7 @@
   --black: #000;
   --dark-grey: #222;
   --white: #fff;
+  --light-grey: #fafafa;
   --light-color: #868e96;
 }
 
@@ -370,17 +371,21 @@ section {
   text-align: center;
   overflow: hidden;
   margin: 1rem 0;
+  background: var(--light-grey);
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
 }
 
 .trainers .trainer-slider .box .image {
   height: 100%;
   width: 100%;
   overflow: hidden;
+  padding-top: 2rem;
 }
 
 .trainers .trainer-slider .box .image img {
-  height: 30rem;
-  width: 30rem;
+  height: 25rem;
+  width: 25rem;
   object-fit: cover;
   border-radius: 50%;
 }
