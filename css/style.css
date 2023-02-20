@@ -482,11 +482,11 @@ section {
 
 .contact .box-container p {
   font-size: 2rem;
+  padding-bottom: 2rem;
 }
 
 .contact .box-container .form-container .form {
   display: flex;
-  padding-top: 2rem;
 }
 
 .contact .box-container .form-container .form .user-data label {
