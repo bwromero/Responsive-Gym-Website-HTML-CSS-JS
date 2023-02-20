@@ -466,13 +466,12 @@ section {
 
 .contact {
   display: block;
-  padding-bottom: 6rem;
   padding-top: 2rem;
 }
 
 .contact .box-container {
   display: flex;
-  padding-top: 2rem;
+  padding-top: 4rem;
   gap: 4rem;
 }
 
