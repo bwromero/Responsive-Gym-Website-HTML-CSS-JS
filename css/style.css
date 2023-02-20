@@ -357,7 +357,7 @@ section {
 
 .schedule .schedule-container .box-container {
   display: flex;
-  justify-content: space-between;
+  gap: 2rem;
 }
 .schedule .schedule-container .box {
   position: relative;
@@ -390,6 +390,21 @@ section {
   line-height: 1.5;
 }
 
+.schedule .schedule-container .box .content .orario .orario-box .hours-box {
+  padding-top: 2rem;
+  display: block;
+}
+
+.schedule
+  .schedule-container
+  .box
+  .content
+  .orario
+  .orario-box
+  .hours-box
+  .hours {
+  padding-bottom: 1rem;
+}
 .schedule .schedule-container .box .content .orario .orario-box .hours p {
   text-align: center;
 }
