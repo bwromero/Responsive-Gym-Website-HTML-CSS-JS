@@ -38,7 +38,7 @@ var swiper = new Swiper(".fitness-slider  ", {
   loop: true,
   centeredSlides: true,
   autoplay: {
-    delay: 1000,
+    delay: 5000,
     disableOnInteraction: true,
     pauseOnMouseEnter: true,
   },
@@ -53,9 +53,7 @@ var swiper = new Swiper(".fitness-slider  ", {
       slidesPerView: 3,
     },
   },
-  freeMode: true,
-  speed: 10000,
-  freeModeMomentum: false,
+
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -68,7 +66,7 @@ var swiper = new Swiper(".martial-arts-slider", {
   loop: true,
   centeredSlides: true,
   autoplay: {
-    delay: 1000,
+    delay: 5000,
     disableOnInteraction: true,
     pauseOnMouseEnter: true,
   },
@@ -83,9 +81,7 @@ var swiper = new Swiper(".martial-arts-slider", {
       slidesPerView: 3,
     },
   },
-  freeMode: true,
-  speed: 10000,
-  freeModeMomentum: false,
+
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
