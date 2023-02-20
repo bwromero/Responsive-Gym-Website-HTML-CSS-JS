@@ -373,14 +373,14 @@ section {
 }
 
 .trainers .trainer-slider .box .image {
-  height: 40rem;
+  height: 100%;
   width: 100%;
   overflow: hidden;
 }
 
 .trainers .trainer-slider .box .image img {
-  height: 100%;
-  width: 100%;
+  height: 30rem;
+  width: 30rem;
   object-fit: cover;
 }
 
