@@ -32,7 +32,7 @@ var swiper = new Swiper(".home-slider", {
   },
 });
 
-var swiper = new Swiper(".feature-slider", {
+var swiper = new Swiper(".fitness-slider  ", {
   spaceBetween: 20,
   grabCursor: true,
   loop: true,
@@ -56,6 +56,40 @@ var swiper = new Swiper(".feature-slider", {
   freeMode: true,
   speed: 10000,
   freeModeMomentum: false,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+var swiper = new Swiper(".martial-arts-slider", {
+  spaceBetween: 20,
+  grabCursor: true,
+  loop: true,
+  centeredSlides: true,
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: true,
+    pauseOnMouseEnter: true,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    991: {
+      slidesPerView: 3,
+    },
+  },
+  freeMode: true,
+  speed: 10000,
+  freeModeMomentum: false,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 });
 
 var swiper = new Swiper(".trainer-slider", {

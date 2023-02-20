@@ -254,35 +254,35 @@ section {
 
 /* ----------------  feature section  ------------- */
 
-.feature .feature-slider {
+.feature .fitness-slider {
   padding-bottom: 4rem;
 }
 
-.feature .feature-slider .box {
+.feature .fitness-slider .box {
   position: relative;
   text-align: center;
   overflow: hidden;
   margin: 1rem 0;
 }
 
-.feature .feature-slider .box .image {
+.feature .fitness-slider .box .image {
   height: 30rem;
   width: 100%;
   overflow: hidden;
   filter: brightness(50%);
 }
 
-.feature .feature-slider .box .image img {
+.feature .fitness-slider .box .image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.feature .feature-slider .box:hover .image img {
+.feature .fitness-slider .box:hover .image img {
   transform: scale(1.2);
 }
 
-.feature .feature-slider .box .content {
+.feature .fitness-slider .box .content {
   padding: 1rem 0;
   position: absolute;
   top: 50%;
@@ -291,7 +291,54 @@ section {
   align-items: center;
 }
 
-.feature .feature-slider .box .content h3 {
+.feature .fitness-slider .box .content h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--white);
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.2rem;
+  margin-top: 0.5rem;
+}
+
+.feature .martial-arts-slider {
+  padding-bottom: 4rem;
+}
+
+.feature .martial-arts-slider .box {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.feature .martial-arts-slider .box .image {
+  height: 30rem;
+  width: 100%;
+  overflow: hidden;
+  filter: brightness(50%);
+}
+
+.feature .martial-arts-slider .box .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.feature .martial-arts-slider .box:hover .image img {
+  transform: scale(1.2);
+}
+
+.feature .martial-arts-slider .box .content {
+  padding: 1rem 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+}
+
+.feature .martial-arts-slider .box .content h3 {
   font-size: 2.5rem;
   font-weight: bold;
   color: var(--white);
