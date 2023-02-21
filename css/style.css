@@ -404,6 +404,7 @@ section {
 
 .schedule .schedule-container .box-container .box .judo,
 .kick-box,
+.kudo,
 .krav-maga,
 .mma {
   flex: 1;
@@ -412,9 +413,6 @@ section {
 /* --------------- schedule sections ends --------------*/
 
 /* ---------------- trainer section starts ----------------- */
-.trainers .trainer-slider {
-  padding-bottom: 4rem;
-}
 
 .trainers .trainer-slider .box {
   position: relative;
