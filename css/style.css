@@ -155,24 +155,6 @@ section {
   transform: rotate(180deg);
   color: var(--main-color);
 }
-/* language selection */
-.selected-lang {
-  cursor: pointer;
-  color: var(--white);
-  display: flex;
-  justify-content: space-between;
-  line-height: 2;
-  font-size: 1.3rem;
-  width: 60px;
-}
-
-.selected-lang::before {
-  content: "";
-  display: block;
-  width: 30px;
-  height: 20px;
-  background-image: url("../images/flags/it.svg");
-}
 
 /* ------------------ home section  --------------------- */
 .home {
@@ -346,81 +328,54 @@ section {
 /* ----------------- feature section ends ------------- */
 
 /* ------------------ schedule section ------------------ */
-
-.schedule .schedule-container {
-  padding-bottom: 4rem;
-}
-
 .schedule .schedule-container h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  padding-top: 2rem;
+  text-transform: uppercase;
 }
-
 .schedule .schedule-container .box-container {
   display: flex;
   gap: 2rem;
 }
-.schedule .schedule-container .box {
-  position: relative;
-  overflow: hidden;
-  margin: 1rem 0;
-  background: #fafafa;
-  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+
+.schedule .schedule-container .box-container .box {
+  display: flex;
+  flex-direction: column;
 }
 
-.schedule .schedule-container .box .content {
+.schedule .schedule-container .box-container .box .baby-fitness,
+.cardio-fitness,
+.ginnastica-posturale,
+.yoga,
+.zumba {
+  flex: 1;
+}
+
+.schedule .schedule-container .box-container .schedule-box {
+  display: flex;
+  flex-direction: column;
+  background: var(--light-grey);
+  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  font-size: 1.5rem;
   padding: 1rem;
+  margin-bottom: 2rem;
+  width: 23rem;
+}
+
+.schedule .schedule-container .box-container .schedule-box .orario-box {
   padding-bottom: 1rem;
 }
 
-.schedule .schedule-container .box .content h3 {
-  font-size: 2rem;
-  color: var(--black);
-  font-weight: bold;
-  padding-bottom: 1rem;
-  text-align: center;
-}
-
-.schedule .schedule-container .box .content .orario .orario-box {
-  display: block;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  color: #808080;
-  font-size: 1.4rem;
-  line-height: 1.5;
-}
-
-.schedule .schedule-container .box .content .orario .orario-box .hours-box {
-  padding-top: 2rem;
-  display: block;
-}
-
-.schedule
-  .schedule-container
-  .box
-  .content
-  .orario
-  .orario-box
-  .hours-box
-  .hours {
-  padding-bottom: 1rem;
-}
-.schedule .schedule-container .box .content .orario .orario-box .hours p {
-  text-align: center;
-}
-
-.schedule .schedule-container .box .content .orario .orario-box p {
-  text-align: center;
-}
-
-.schedule .schedule-container .box .content .orario .orario-box p span {
+.schedule .schedule-container .box-container .schedule-box p span {
   font-weight: bold;
   text-transform: none;
 }
 
-.schedule .schedule-container .box .content .orario .orario-box .hours p span {
-  font-weight: bold;
-  text-transform: none;
+.schedule .schedule-container .box-container .schedule-box p {
+  text-align: center;
 }
 
 /* --------------- schedule sections ends --------------*/
