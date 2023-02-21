@@ -173,6 +173,24 @@ section {
   padding-top: 8rem;
 }
 
+.home .home-slider .box .scroll {
+  padding-right: 3rem;
+  padding-top: 0;
+  overflow-y: scroll;
+  height: 50rem;
+  overflow: overlay;
+}
+
+.home .home-slider .box .scroll::-webkit-scrollbar {
+  border: none;
+  background-color: transparent;
+}
+
+.home .home-slider .box .content::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  height: 30px;
+}
+
 .home .home-slider .box .content h3 {
   font-size: 5rem;
   color: var(--white);
