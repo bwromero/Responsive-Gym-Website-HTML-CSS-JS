@@ -44,8 +44,8 @@ section {
 .heading {
   font-size: 2rem;
   text-align: center;
-  padding-top: 4;
-  padding-bottom: 2 rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
   color: var(--black);
   text-transform: uppercase;
 }
@@ -580,6 +580,15 @@ section {
 
 .contact .address p {
   font-size: 2rem;
+}
+
+.contact .address .contact-info p span {
+  font-weight: bold;
+}
+
+.contact .address .contact-info p {
+  padding-bottom: 0;
+  text-transform: none;
 }
 /* ------------------ footer section starts ------------- */
 
