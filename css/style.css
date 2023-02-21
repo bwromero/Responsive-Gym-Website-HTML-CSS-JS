@@ -185,6 +185,8 @@ section {
   color: #eee;
   padding: 1rem 0;
   transition-delay: 0.4s;
+  text-transform: none;
+  text-align: justify;
 }
 
 .btn {

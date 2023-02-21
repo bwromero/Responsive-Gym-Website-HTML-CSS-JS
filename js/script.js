@@ -30,6 +30,10 @@ var swiper = new Swiper(".home-slider", {
     delay: 5500,
     disableOnInteraction: false,
   },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 });
 
 var swiper = new Swiper(".fitness-slider", {
