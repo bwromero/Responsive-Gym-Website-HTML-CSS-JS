@@ -94,23 +94,23 @@ section {
   color: var(--main-color);
 }
 
-.icons {
-  display: flex;
-}
-
 .header .box .icons {
   padding: 1rem 0;
+  padding-right: 2rem;
+}
+
+.header .box .icons a {
+  padding-right: 2rem;
 }
 
 .header .box .icons a i {
-  height: 5rem;
-  width: 5rem;
-  line-height: 5rem;
-  text-align: center;
+  margin-right: 1rem;
+  color: var(--main-color);
   font-size: 2rem;
-  border-radius: 50%;
-  margin-right: 0 0.5rem;
-  color: var(--white);
+}
+
+.header .box .icons a fab {
+  font-size: 3rem;
 }
 
 .header .box .icons a i:hover {
@@ -122,11 +122,6 @@ section {
   color: var(--white);
   font-size: 1.5rem;
   margin: 1.5rem 0;
-}
-
-.header .box .icons a i {
-  margin-right: 0.5rem;
-  color: var(--main-color);
 }
 
 .header .box .icons a:hover i {
