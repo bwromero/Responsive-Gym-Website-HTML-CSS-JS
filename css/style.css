@@ -111,6 +111,7 @@ section {
 
 .header .box .icons a .fab {
   font-size: 3rem;
+  margin-right: 0;
 }
 
 .header .box .icons a i:hover {
