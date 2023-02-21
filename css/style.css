@@ -345,6 +345,27 @@ section {
   flex-direction: column;
 }
 
+.schedule .schedule-container .box-container .box .cardio-fitness .orario {
+  padding-top: 4rem;
+}
+
+.schedule
+  .schedule-container
+  .box-container
+  .box
+  .ginnastica-posturale
+  .orario {
+  padding-top: 5rem;
+}
+
+.schedule .schedule-container .box-container .box .yoga .orario {
+  padding-top: 1rem;
+}
+
+.schedule .schedule-container .box-container .box .zumba .orario {
+  padding-top: 1rem;
+}
+
 .schedule .schedule-container .box-container .box .baby-fitness,
 .cardio-fitness,
 .ginnastica-posturale,
