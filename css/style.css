@@ -399,6 +399,21 @@ section {
   text-align: center;
 }
 
+.schedule .schedule-container .box-container .karate .schedule-box .hours .row {
+  padding-top: 1rem;
+}
+
+.schedule .schedule-container .box-container .judo .schedule-box .hours .row {
+  padding-top: 1rem;
+}
+
+.schedule .schedule-container .box-container .box .judo,
+.kick-box,
+.krav-maga,
+.mma {
+  flex: 1;
+}
+
 /* --------------- schedule sections ends --------------*/
 
 /* ---------------- trainer section starts ----------------- */
