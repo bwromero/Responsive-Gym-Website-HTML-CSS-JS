@@ -1,5 +1,4 @@
 // Get the selected language element and menu item
-const selectedLang = document.getElementById("selected-lang");
 let navbar = document.querySelector(".navbar");
 
 window.onscroll = () => {
@@ -20,6 +19,7 @@ window.onload = () => {
   }
 };
 
+// swiper configuration
 var swiper = new Swiper(".home-slider", {
   spaceBetween: 20,
   effect: "fade",
