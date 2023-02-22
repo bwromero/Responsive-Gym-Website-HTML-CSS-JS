@@ -55,6 +55,14 @@ section {
   color: var(--main-color);
 }
 
+#zumba-sm {
+  display: none;
+}
+
+#mma-sm {
+  display: none;
+}
+
 /* --------------------------------- HEADER ---------------------------- */
 
 .header {
@@ -349,54 +357,54 @@ section {
 /* ----------------- feature section ends ------------- */
 
 /* ------------------ schedule section ------------------ */
-.schedule .schedule-container h3 {
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 4rem;
+}
+.schedule h3 {
   font-size: 2rem;
-  padding-bottom: 1rem;
   text-align: center;
-  padding-top: 2rem;
+  padding: 2rem 0;
   text-transform: uppercase;
 }
-.schedule .schedule-container .box-container {
-  display: flex;
-  justify-content: center;
+.schedule .box-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  grid-auto-rows: minmax(137px, auto);
   gap: 2rem;
 }
 
-.schedule .schedule-container .box-container .box {
+.schedule .box-container .box {
   display: flex;
   flex-direction: column;
 }
 
-.schedule .schedule-container .box-container .box .cardio-fitness .orario {
-  padding-top: 4rem;
+.schedule .box-container .box .pilates {
+  height: 204px;
 }
 
-.schedule
-  .schedule-container
-  .box-container
-  .box
-  .ginnastica-posturale
-  .orario {
-  padding-top: 5rem;
-}
-
-.schedule .schedule-container .box-container .box .yoga .orario {
-  padding-top: 1rem;
-}
-
-.schedule .schedule-container .box-container .box .zumba .orario {
-  padding-top: 1rem;
-}
-
-.schedule .schedule-container .box-container .box .baby-fitness,
-.cardio-fitness,
+.schedule .box-container .box .fitness,
 .ginnastica-posturale,
 .yoga,
-.zumba {
+.cardio-fitness,
+.pilates,
+.zumba,
+.baby-fitness,
+.judo,
+.kick-box,
+.kudo,
+.krav,
+.mma,
+.mma-sm,
+.zumba-sm {
   flex: 1;
 }
 
-.schedule .schedule-container .box-container .schedule-box {
+.schedule .box-container .box .schedule-box {
   display: flex;
   flex-direction: column;
   background: var(--light-grey);
@@ -405,36 +413,19 @@ section {
   font-size: 1.5rem;
   padding: 1rem;
   margin-bottom: 2rem;
-  width: 17rem;
 }
 
-.schedule .schedule-container .box-container .schedule-box .orario-box {
+.schedule .box-container .box .schedule-box .orario-box {
   padding-bottom: 1rem;
 }
 
-.schedule .schedule-container .box-container .schedule-box p span {
+.schedule .box-container .box .schedule-box p span {
   font-weight: bold;
   text-transform: none;
 }
 
-.schedule .schedule-container .box-container .schedule-box p {
+.schedule .box-container .box .schedule-box p {
   text-align: center;
-}
-
-.schedule .schedule-container .box-container .karate .schedule-box .hours .row {
-  padding-top: 1rem;
-}
-
-.schedule .schedule-container .box-container .judo .schedule-box .hours .row {
-  padding-top: 1rem;
-}
-
-.schedule .schedule-container .box-container .box .judo,
-.kick-box,
-.kudo,
-.krav-maga,
-.mma {
-  flex: 1;
 }
 
 /* --------------- schedule sections ends --------------*/
@@ -481,67 +472,6 @@ section {
 }
 
 /* ---------------- trainer section ends ----------------- */
-
-/* ------------------ testimonial section starts ------------------ */
-
-.testimonial .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
-  padding: 7rem 0;
-}
-
-.testimonial .box-container .box {
-  padding: 2rem;
-  position: relative;
-  text-align: center;
-  background: #fafafa;
-  box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.1);
-  border-radius: 1rem;
-}
-
-.testimonial .box-container .box:hover {
-  transform: translateY(-10%);
-  transition: 0.5s linear;
-  background: var(--white);
-  border: 0.2rem solid #f8f8a1;
-}
-.testimonial .box-container .box .image {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 5rem;
-}
-
-.testimonial .box-container .box .image img {
-  width: 10rem;
-  height: 10rem;
-  object-fit: cover;
-  border-radius: 50%;
-  position: absolute;
-  top: -6rem;
-}
-
-.testimonial .box-container .box .name {
-  padding: 1rem 0;
-}
-
-.testimonial .box-container .box .name h1 {
-  font-size: 2rem;
-  color: var(--black);
-}
-
-.testimonial .box-container .box .name p span {
-  text-transform: none;
-}
-.testimonial .box-container .box p {
-  font-size: 1.5rem;
-  color: #333;
-  font-weight: 400;
-  line-height: 1.8;
-}
-/* ------------------ testimonial section ends ------------------ */
 
 /* ----------------- contact section starts -------------*/
 
@@ -720,6 +650,12 @@ section {
   .header.active {
     padding: 2rem;
   }
+
+  .box-container {
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-rows: minmax(137px, auto);
+  }
 }
 
 /* ---------------------------------- for maxWidth 768px ------------------------ */
@@ -772,6 +708,21 @@ section {
 
   .contact .box-container .form-container .form {
     display: block;
+  }
+  #mma-sm {
+    display: block;
+  }
+
+  #zumba-sm {
+    display: block;
+  }
+
+  .schedule .box-container .box .zumba {
+    display: none;
+  }
+
+  .schedule .box-container .box .mma {
+    display: none;
   }
 }
 
