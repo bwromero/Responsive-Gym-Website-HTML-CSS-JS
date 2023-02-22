@@ -655,6 +655,7 @@ section {
     grid-template-columns: repeat(3, 1fr) !important;
     grid-template-rows: repeat(2, 1fr);
     grid-auto-rows: minmax(137px, auto);
+    gap: 1rem;
   }
 }
 
