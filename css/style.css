@@ -94,52 +94,60 @@ section {
   color: var(--main-color);
 }
 
-.header .box .icons {
+.header .icons {
   padding: 1rem 0;
   padding-right: 2rem;
 }
 
-.header .box .icons a {
+.header .icons a {
   padding-right: 2rem;
 }
 
-.header .box .icons a i {
+.header .icons a i {
   margin-right: 1rem;
   color: var(--main-color);
   font-size: 2rem;
 }
 
-.header .box .icons a .fab {
+.header .icons a .fab {
   font-size: 3rem;
   margin-right: 0;
 }
 
-.header .box .icons a i:hover {
+.header .icons a i:hover {
   color: var(--main-color);
   background: none;
 }
 
-.header .box .icons a {
+.header .icons a {
   color: var(--white);
   font-size: 1.5rem;
   margin: 1.5rem 0;
 }
 
-.header .box .icons a:hover i {
+.header .icons a:hover i {
   color: var(--white);
 }
 
-.header .box .icons a:hover {
+.header .icons a:hover {
+  color: var(--main-color);
+}
+
+.header .icons div {
+  font-size: 2.5rem;
+  color: #222;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.header .icons div:hover {
+  transform: rotate(180deg);
   color: var(--main-color);
 }
 
 #menu-btn {
   display: none;
-  font-size: 2.5rem;
-  color: var(--black);
-  padding: 0.5rem;
-  cursor: pointer;
-  margin-left: 1rem;
 }
 
 .header.active {
@@ -696,7 +704,7 @@ section {
 }
 /* ------------------ footer section ends ------------- */
 
-/* ---------------------------------- for maxWidth 768px ------------------------ */
+/* ---------------------------------- for maxWidth 991px ------------------------ */
 
 @media (max-width: 991px) {
   html {
@@ -710,9 +718,49 @@ section {
   .header.active {
     padding: 2rem;
   }
+}
 
-  section {
-    padding: 2rem;
+/* ---------------------------------- for maxWidth 768px ------------------------ */
+
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+
+  #menu-btn {
+    display: inline-block;
+  }
+
+  #cellphone-icon {
+    display: none;
+  }
+
+  #phone-icon {
+    display: none;
+  }
+
+  .header .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    background: black;
+    border-top: 0.3rem solid white;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  .header .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .header .navbar a {
+    display: block;
+    margin: 2rem;
+    font-size: 2rem;
+  }
+
+  .header .icons a i .fas {
+    display: none;
   }
 }
 
