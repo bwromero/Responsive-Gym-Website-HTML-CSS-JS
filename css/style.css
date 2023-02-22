@@ -626,10 +626,15 @@ section {
 
 .footer .box-container .box .text {
   color: #eee;
-  font-size: 1.3 rem;
+  font-size: 1.3rem;
   font-weight: normal;
   line-height: 1.8;
   padding-bottom: 1rem;
+}
+
+.footer .box-container .box .text p {
+  text-transform: none;
+  text-align: justify;
 }
 
 .footer .box-container .box .icons {
