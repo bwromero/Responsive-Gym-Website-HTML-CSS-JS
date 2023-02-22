@@ -358,6 +358,7 @@ section {
 }
 .schedule .schedule-container .box-container {
   display: flex;
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -404,7 +405,7 @@ section {
   font-size: 1.5rem;
   padding: 1rem;
   margin-bottom: 2rem;
-  width: 23rem;
+  width: 17rem;
 }
 
 .schedule .schedule-container .box-container .schedule-box .orario-box {
