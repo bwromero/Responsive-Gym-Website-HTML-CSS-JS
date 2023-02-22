@@ -768,6 +768,10 @@ section {
     width: auto;
     height: auto;
   }
+
+  .contact .box-container .form-container .form {
+    display: block;
+  }
 }
 
 /* ------------------------------------ for max-width 450px -------------------- */
