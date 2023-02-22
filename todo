@@ -2,7 +2,3 @@ Fixes:
   - Collape into menu on small screens and mobile
   - Fix schedules, make two rows on small screens
   - Fix contact sextion, make it smaller and richiesta below inputs same with the map
-
-Features:
-  - Add new slide in home section that shows social media buttons and ivnites to follow social media of the gym,
-    on click it has to open new tab with soccial mediapage
