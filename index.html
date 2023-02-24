@@ -587,50 +587,24 @@
     <section class="contact" id="contatti">
       <h1 class="heading">unisciti a <span>noi</span></h1>
       <div class="box-container">
-        <div class="form-container">
-          <form action="">
-            <br />
-            <br />
+        <form class="form-container" action="">
+          <p>Compila il modulo e ti ricontattaremo al più presto!</p>
 
-            <p>Compila il modulo e ti ricontattaremo al più presto!</p>
+          <label for="name-lastname">Nome e Cognome*</label>
+          <input type="text" id="name-lastname" name="name-lastname" />
+          <label for="name-lastname">Email*</label>
+          <input type="text" id="name-lastname" name="name-lastname" />
+          <label for="name-lastname">Telefono*</label>
+          <input type="text" id="name-lastname" name="name-lastname" />
 
-            <div class="form">
-              <div class="user-data">
-                <label for="name-lastname">Nome e Cognome*</label><br />
-                <input
-                  type="text"
-                  id="name-lastname"
-                  name="name-lastname"
-                  size="40"
-                  height="50"
-                /><br />
-                <label for="name-lastname">Email*</label><br />
-                <input
-                  type="text"
-                  id="name-lastname"
-                  name="name-lastname"
-                  size="40"
-                /><br />
-                <label for="name-lastname">Telefono*</label><br />
-                <input
-                  type="text"
-                  id="name-lastname"
-                  name="name-lastname"
-                  size="40"
-                /><br />
-              </div>
-              <div class="richiesta">
-                <label for="richiesta">Richiesta:</label>
+          <label for="richiesta">Richiesta:</label>
 
-                <textarea id="richiesta" name="richiesta" rows="8" cols="60">
-                </textarea>
-              </div>
-            </div>
-            <div class="button">
-              <a type="submit" href="#" class="btn btn-2">invia richiesta</a>
-            </div>
-          </form>
-        </div>
+          <textarea id="richiesta" name="richiesta" rows="5"> </textarea>
+
+          <div class="button">
+            <a type="submit" href="#" class="btn btn-2">invia richiesta</a>
+          </div>
+        </form>
 
         <div class="address">
           <h3>Dove siamo?</h3>

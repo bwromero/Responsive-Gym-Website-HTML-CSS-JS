@@ -476,45 +476,30 @@ section {
 /* ----------------- contact section starts -------------*/
 
 .contact {
-  display: block;
-  padding-top: 4rem;
-}
-
-.contact .box-container {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  padding-top: 4rem;
 }
 
 .contact .heading h2 {
   text-align: center;
 }
 
-.contact .box-container p {
-  font-size: 1.7rem;
-  padding-bottom: 2rem;
-  text-transform: none;
-}
-
-.contact .box-container .form-container .form {
+.contact .box-container {
   display: flex;
+  justify-content: center;
+  gap: 4rem;
 }
 
-.contact .box-container .form-container .form .user-data label {
-  font-size: 1.7rem;
-}
-
-.contact .box-container .form-container .form .richiesta label {
-  font-size: 1.7rem;
-}
-.contact .form-container .user-data {
-  display: block;
-  padding-right: 2rem;
-}
-
-.contact .form-container .richiesta {
+.contact .box-container form {
   display: flex;
   flex-direction: column;
+}
+
+.contact .box-container form p {
+  font-size: 1.7rem;
+  text-transform: none;
+  padding-bottom: 2rem;
 }
 
 .contact .box-container .button {
