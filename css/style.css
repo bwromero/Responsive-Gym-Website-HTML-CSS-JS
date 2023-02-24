@@ -483,6 +483,7 @@ section {
 .contact .address {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .contact .address h3 {
@@ -518,6 +519,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 4rem;
+  flex: 1;
 }
 
 .contact .box-container form {
