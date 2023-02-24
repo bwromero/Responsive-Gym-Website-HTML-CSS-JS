@@ -481,6 +481,36 @@ section {
   padding-top: 4rem;
 }
 
+.contact .address {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .address h3 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contact .address .contact-info a {
+  font-size: 1.7rem;
+  padding-bottom: 0.5rem;
+  color: var(--black);
+}
+
+.contact .address .contact-info a i {
+  margin-right: 0.5rem;
+}
+
+.contact .address .contact-info {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.contact .address .contact-info p span {
+  font-weight: bold;
+}
+
 .contact .heading h2 {
   text-align: center;
 }
@@ -505,30 +535,10 @@ section {
   font-size: 1.7rem;
 }
 
-.contact .box-container .button {
-  padding-top: 2rem;
-}
 .contact .box-container .button .btn-2 {
   background: var(--main-color);
   color: var(--white);
   margin-right: 0.5rem;
-}
-
-.contact .address h3 {
-  font-size: 2rem;
-}
-
-.contact .address p {
-  font-size: 1.7rem;
-}
-
-.contact .address .contact-info p span {
-  font-weight: bold;
-}
-
-.contact .address .contact-info p {
-  padding-bottom: 0;
-  text-transform: none;
 }
 
 /* ------------------ footer section starts ------------- */
