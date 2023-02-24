@@ -361,7 +361,6 @@ section {
 .schedule {
   display: flex;
   flex-direction: column;
-  grid-template-columns: repeat(1, 1fr);
   padding: 4rem;
 }
 .schedule h3 {
@@ -478,7 +477,7 @@ section {
 .contact {
   display: flex;
   flex-direction: column;
-  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .contact .address {
