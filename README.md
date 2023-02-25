@@ -2,6 +2,9 @@
 
 This website has 5 sections **Home, Courses, Trainers, Schedule, Contacts Us.**
 
+**Demo:** https://unique-truffle-36caee.netlify.app/
+
+
 **Home:**
 ![home](https://user-images.githubusercontent.com/12884512/221371673-01647b8d-b8e7-4b97-a5f6-f071470db3dc.PNG)
 
