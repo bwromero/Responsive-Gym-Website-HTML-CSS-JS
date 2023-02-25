@@ -54,14 +54,14 @@ section {
   text-transform: uppercase;
   color: var(--main-color);
 }
-
+/* 
 #zumba-sm {
   display: none;
 }
 
 #mma-sm {
   display: none;
-}
+} */
 
 /* --------------------------------- HEADER ---------------------------- */
 
@@ -731,21 +731,21 @@ section {
   .contact .box-container .form-container .form {
     display: block;
   }
-  #mma-sm {
+  /* #mma-sm {
     display: block;
   }
 
   #zumba-sm {
     display: block;
-  }
+  } */
 
-  .schedule .box-container .box .zumba {
+  /* .schedule .box-container .box .zumba {
     display: none;
   }
 
   .schedule .box-container .box .mma {
     display: none;
-  }
+  } */
 }
 
 /* ------------------------------------ for max-width 450px -------------------- */
