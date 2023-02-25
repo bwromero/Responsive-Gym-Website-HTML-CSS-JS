@@ -361,7 +361,6 @@ section {
 .schedule {
   display: flex;
   flex-direction: column;
-  padding: 4rem;
 }
 .schedule h3 {
   font-size: 2rem;
