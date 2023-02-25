@@ -4,7 +4,7 @@ This website has 5 sections **Home, Courses, Trainers, Schedule, Contacts Us.**
 
 **External libraries/toolkits:**
 - Font Awesome: https://fontawesome.com/
-- Swiperjs: swiperjs.com/get-started 
+- Swiperjs: [swiperjs.com/get-started ](https://swiperjs.com/)
 
 **Demo:** https://unique-truffle-36caee.netlify.app/
 
