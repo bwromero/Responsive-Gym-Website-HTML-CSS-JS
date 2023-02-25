@@ -646,6 +646,18 @@ section {
 
 /* ---------------------------------- for maxWidth 991px ------------------------ */
 
+@media (max-width: 1300px) {
+  #cellphone-icon {
+    display: none;
+  }
+
+  #phone-icon {
+    display: none;
+  }
+}
+
+/* ---------------------------------- for maxWidth 991px ------------------------ */
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -680,14 +692,6 @@ section {
 
   #menu-btn {
     display: inline-block;
-  }
-
-  #cellphone-icon {
-    display: none;
-  }
-
-  #phone-icon {
-    display: none;
   }
 
   .header .navbar {

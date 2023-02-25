@@ -7,8 +7,8 @@ menu.onclick = () => {
 };
 
 window.onscroll = () => {
-  menu.classList.toggle("fa-times");
-  navbar.classList.toggle("active");
+  menu.classList.remove("fa-times");
+  navbar.classList.remove("active");
 
   if (window.scrollY > 0) {
     document.querySelector(".header").classList.add("active");
@@ -50,7 +50,6 @@ var swiper = new Swiper(".fitness-slider", {
   autoplay: {
     delay: 5000,
     disableOnInteraction: true,
-    pauseOnMouseEnter: true,
   },
   breakpoints: {
     0: {
@@ -78,7 +77,6 @@ var swiper = new Swiper(".martial-arts-slider", {
   autoplay: {
     delay: 5000,
     disableOnInteraction: true,
-    pauseOnMouseEnter: true,
   },
   breakpoints: {
     0: {
