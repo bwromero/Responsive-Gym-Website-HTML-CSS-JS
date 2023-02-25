@@ -417,6 +417,14 @@ section {
   padding-bottom: 1rem;
 }
 
+.schedule .box-container .box .schedule-box .orario-box {
+  padding-bottom: 1rem;
+}
+
+.schedule .box-container .box .schedule-box .orario-box .hours .row {
+  padding-bottom: 1rem;
+}
+
 .schedule .box-container .box .schedule-box p span {
   font-weight: bold;
   text-transform: none;
