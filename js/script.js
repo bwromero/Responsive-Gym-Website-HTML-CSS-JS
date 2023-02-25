@@ -102,7 +102,7 @@ var swiper = new Swiper(".trainer-slider", {
   loop: true,
   centeredSlides: true,
   autoplay: {
-    delay: 4000,
+    delay: 5000,
     disableOnInteraction: true,
     pauseOnMouseEnter: true,
   },
