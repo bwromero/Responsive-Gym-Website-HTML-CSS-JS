@@ -483,6 +483,7 @@ section {
 .contact .address {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .contact .address h3 {
@@ -524,6 +525,7 @@ section {
 .contact .box-container form {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .contact .box-container form p {
@@ -538,6 +540,9 @@ section {
 .contact .box-container form input {
   padding-bottom: 0.5rem;
   margin-bottom: 0.5rem;
+}
+.contact .box-container form textarea {
+  flex: 1;
 }
 
 .contact .box-container .button .btn-2 {
