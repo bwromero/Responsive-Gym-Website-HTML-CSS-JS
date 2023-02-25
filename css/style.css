@@ -697,6 +697,7 @@ section {
 
   #menu-btn {
     display: inline-block;
+    color: var(--white);
   }
 
   .header .navbar {
